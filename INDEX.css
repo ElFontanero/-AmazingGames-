@@ -1,37 +1,38 @@
 .TOPNAV {
-OVERFLOW: HIDDEN; /* Recorta contenido, dibuja barras, etc. */
-BACKGROUND-COLOR: #333; /* Color que vas a utilizar para el fondo de la pagina. */
+OVERFLOW: HIDDEN;
+BACKGROUND-COLOR: #333;
 TEXT-ALIGN: CENTER;
 WIDTH: 100%;
 }
 .TOPNAV A {
-FLOAT: LEFT; /* Los elementos aparecidos estan a la izquierda. */
-COLOR: #FF0000; /* Indica que el color utilizado para esta parte es blanco. */
-TEXT-ALIGN: CENTER; /* Indica que la alineacion del texto en este caso es centrado. */
-PADDING: 14PX 16PX; /* Creo un espacio alrededor del contenido de 14-16PX. */
-TEXT-DECORATION: NONE; /* Establece que tipo de decoracion se le da al texto, (subrayado, tachado, etc), en este caso ninguno. */
-FONT-SIZE: 17PX; /* Establece el tamaño del texto de las secciones de la pagina en 17PX. */
+FLOAT: LEFT;
+COLOR: #FF0000;
+TEXT-ALIGN: CENTER;
+PADDING: 14PX 16PX;
+TEXT-DECORATION: NONE;
+FONT-SIZE: 17PX;
 }
 BODY {
-MARGIN: 8; /* Establece que el margen del cuerpo del contenido sera de 8. */
-FONT-FAMILY: TIMES NEW ROMAN, SERIF; /* Indica el tipo de letra utilizada para el cuerpo del contenido. */
+TEXT-ALIGN: CENTER;
+MARGIN: 8;
+FONT-FAMILY: TIMES NEW ROMAN, SERIF;
 }
 NAV UL {
 TEXT-ALIGN: CENTER;
-LIST-STYLE: NONE; /* Indica el estilo de lista utilizado, (disc, circle, square), en este caso ninguno.  */
-PADDING: 0; /* Espacio que hay alrededor de  */
-MARGIN: 0; /*  */
+LIST-STYLE: NONE;
+PADDING: 0;
+MARGIN: 0;
 }
 NAV LI {
 TEXT-ALIGN: CENTER;
-DISPLAY: FLEX; /*  */
-MARGIN-RIGHT: 50PX; /*  */
+DISPLAY: FLEX;
+MARGIN-RIGHT: 50PX;
 }
 NAV A {
 TEXT-ALIGN: CENTER;
-TEXT-DECORATION: NONE; /*  */
-COLOR: #FFF; /*  */
-FONT-SIZE: 25PX; /*  */
+TEXT-DECORATION: NONE;
+COLOR: #FFF;
+FONT-SIZE: 30PX;
 }
 NAV A:HOVER {
 TEXT-ALIGN: CENTER;
