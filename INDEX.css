@@ -17,20 +17,24 @@ MARGIN: 8; /* Establece que el margen del cuerpo del contenido sera de 8. */
 FONT-FAMILY: TIMES NEW ROMAN, SERIF; /* Indica el tipo de letra utilizada para el cuerpo del contenido. */
 }
 NAV UL {
+TEXT-ALIGN: CENTER;
 LIST-STYLE: NONE; /* Indica el estilo de lista utilizado, (disc, circle, square), en este caso ninguno.  */
 PADDING: 0; /* Espacio que hay alrededor de  */
 MARGIN: 0; /*  */
 }
 NAV LI {
+TEXT-ALIGN: CENTER;
 DISPLAY: FLEX; /*  */
 MARGIN-RIGHT: 50PX; /*  */
 }
 NAV A {
+TEXT-ALIGN: CENTER;
 TEXT-DECORATION: NONE; /*  */
 COLOR: #FFF; /*  */
 FONT-SIZE: 25PX; /*  */
 }
 NAV A:HOVER {
+TEXT-ALIGN: CENTER;
 TEXT-DECORATION: NONE;
 BACKGROUND-COLOR: RED;
 BACKGROUND-IMAGE: URL("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIOSC37XVvelz_ZzJQuM3b2ZphLO0Z5PPn7Q&s");
