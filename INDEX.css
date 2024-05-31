@@ -1,0 +1,84 @@
+
+body{
+    background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-red-white-business-background-low-poly-simple-picture-image_1402151.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    }
+    #menu ul {
+      list-style:none;
+      padding:0;
+      display: flex; 
+     }
+  /* items del menu */
+  
+     #menu ul li {
+      background-color:#D80000;
+  width: 100%;
+  text-align: center;
+     }
+     
+     /* enlaces del menu */
+     
+     #menu ul a {
+      display: block;
+      color:#eee;
+      text-decoration:none;
+      padding:10px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+    font-style: normal;
+      text-transform:uppercase;
+      letter-spacing:1px;
+     }
+     
+     /* items del menu */
+     
+     #menu ul li {
+      position:relative;
+      float:left;
+      margin:0;
+      padding:0;
+     }
+     
+     /* efecto al pasar el ratón por los items del menu */
+     
+     #menu ul li:hover {
+      background:#870000;
+     }
+  
+     /* menu desplegable */
+  
+  #menu ul ul {
+      display:none;
+      position:absolute;
+      top:100%;
+      left:0;
+      background:#eee;
+      padding:0;
+     }
+     
+     /* items del menu desplegable */
+     
+     #menu ul ul li {
+      float:none; /*para que nuestros enlaces aparezcan de forma vertical y no horizontal como en el menú principal, aplicaremos la regla CSS de float: none*/
+      width:420px;
+     }
+     
+     /* enlaces de los items del menu desplegable */
+     
+     #menu ul ul a {
+      line-height:120%;
+      padding:15px;
+     }
+     
+     /* items del menu desplegable al pasar el ratón */
+     
+     #menu ul li:hover > ul {
+      display:block; /*Si te fijas, por defecto «escondemos» los enlaces del submenú con display: none y luego los mostramos aplicando display: block con el selector :hover*/
+  }
+     H1{
+      font-family: "Amaranth", sans-serif;
+      font-style: italic;
+     }
+  
