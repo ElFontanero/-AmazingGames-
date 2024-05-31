@@ -1,6 +1,7 @@
 .TOPNAV {
 OVERFLOW: HIDDEN; /* Recorta contenido, dibuja barras, etc. */
 BACKGROUND-COLOR: #333; /* Color que vas a utilizar para el fondo de la pagina. */
+TEXT-ALIGN: CENTER;
 WIDTH: 100%;
 }
 .TOPNAV A {
