@@ -1,10 +1,11 @@
 .TOPNAV {
 OVERFLOW: HIDDEN; /* Recorta contenido, dibuja barras, etc. */
 BACKGROUND-COLOR: #333; /* Color que vas a utilizar para el fondo de la pagina. */
+WIDTH: 100%;
 }
 .TOPNAV A {
 FLOAT: LEFT; /* Los elementos aparecidos estan a la izquierda. */
-COLOR: #F2F2F2; /* Indica que el color utilizado para esta parte es blanco. */
+COLOR: #FF0000; /* Indica que el color utilizado para esta parte es blanco. */
 TEXT-ALIGN: CENTER; /* Indica que la alineacion del texto en este caso es centrado. */
 PADDING: 14PX 16PX; /* Creo un espacio alrededor del contenido de 14-16PX. */
 TEXT-DECORATION: NONE; /* Establece que tipo de decoracion se le da al texto, (subrayado, tachado, etc), en este caso ninguno. */
